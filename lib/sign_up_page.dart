@@ -48,7 +48,6 @@ class _RegisterPageState extends State<RegisterPage> {
     _usernameController.dispose();
     _emailController.dispose();
     _passwordController.dispose();
-    // this comment for testing
   }
 
   @override
