@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:login_application/home_page.dart';
 import 'package:login_application/login.dart';
+import 'package:login_application/register_page.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -19,7 +20,7 @@ class Project extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: RegisterPage(),
     );
   }
 }
